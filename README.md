@@ -123,3 +123,30 @@ Use Case Diagrams are a type of behavioral diagram used in software engineering 
 The diagram below represents a basic use case for a booking management system. It includes key actors such as "User" and "Admin" and common use cases like creating, modifying, and managing bookings.
 
 ![Booking Use Case Diagram](alx-booking-uc.png)
+---------------
+## Acceptance Criteria
+
+Acceptance Criteria are a set of predefined conditions that a software product must meet to be accepted by a user, customer, or other stakeholders. They are used to define the boundaries of a user story or feature and ensure that the development team delivers exactly what was expected.
+
+### Importance of Acceptance Criteria in Requirement Analysis
+
+- **Clarify Expectations:** Acceptance Criteria help eliminate ambiguity by clearly stating what needs to be done for a requirement to be considered complete.
+- **Enable Testability:** They provide a basis for test cases, making it easier to validate that the software meets the intended requirements.
+- **Facilitate Communication:** By providing a shared understanding between stakeholders and developers, Acceptance Criteria improve collaboration and reduce misunderstandings.
+- **Support Agile Development:** In agile methodologies, acceptance criteria guide sprint planning and definition of done for each feature or user story.
+
+### Example: Acceptance Criteria for the Checkout Feature in a Booking Management System
+
+**Feature:** Checkout
+
+**Acceptance Criteria:**
+
+1. User must be able to review selected booking details before confirming the checkout.
+2. System must display the total amount to be paid, including taxes or fees.
+3. Payment options (credit card, PayPal, etc.) must be available and selectable.
+4. On successful payment, the system must generate a confirmation number and email it to the user.
+5. The user should be redirected to a confirmation page with booking and payment summary.
+6. If payment fails, an appropriate error message must be displayed, and the user must have the option to retry.
+
+Well-defined acceptance criteria ensure that the Checkout feature is fully functional, user-friendly, and meets the business requirements before it goes live.
+
